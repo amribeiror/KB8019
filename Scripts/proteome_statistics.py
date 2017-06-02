@@ -105,7 +105,6 @@ with open(proteome, 'r') as pt:
     metagene = ''.join(metagene)
     metagene = metagene.upper()
     stats = proteome_stat(metagene)
-    print (len(stats[1]))
     with open(proteome+".stats", 'w') as ps:
         ps.write("AMINO ACID STATISTICS FOR: {}\n".format(proteome))
         ps.write("Amino Acid Frequency:\n")

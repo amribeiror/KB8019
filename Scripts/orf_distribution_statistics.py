@@ -7,8 +7,8 @@ number = []
 orfbin = []
 orf_stat = []
 bins = [x*1000 for x in range(1,16)]
-for filename in glob.glob("??.fa.translate.orf_coords"):
-    no = filename.replace(".fa.translate.orf_coords", "")
+for filename in glob.glob("??.*orf_coords"):
+    no = filename[:2]
     number.append(no)
     orf_sub_bin = []
     with open(filename, 'r') as fr:
