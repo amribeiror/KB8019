@@ -4,8 +4,8 @@
 * *orf_distribution_statistics*: This script should be run in the folder where the *.orf_coords* file are located. It uses globbing to aggregate all the files and construct a histogram to show the distribution of ORF length.
 
 ## Blastp Result Parser
-* xml_parser.py: Takes blastp xml output as arg[1] and prints the statistics of only the best hits classified by e-value threshold of 10^-3.
+* *xml_parser.py*: Takes blastp xml output as arg[1] and prints the statistics of only the best hits classified by e-value threshold of 10^-3.
 
 ## Genome and Proteome Statistics
-* _statistics.py: Takes the whole genome file or a multifasta proteome file as arg[1] and calculate the statistics and write the them into a *.stats* file.
-* _matrix.py: Takes the *.stats* file as arg[1] and create different distance matrices with each saved as a *.txt* file.
+* *_statistics.py*: Takes the whole genome file or a multifasta proteome file as arg[1] and calculate the statistics and write the them into a *.stats* file.
+* *_matrix.py*: Takes the *.stats* file as arg[1] and create different distance matrices with each saved as a *.txt* file.
